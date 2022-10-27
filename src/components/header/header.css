@@ -1,0 +1,75 @@
+.header {
+  background: #0a2640;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  gap: 4%;
+}
+
+.header-lhs h2 {
+  font-weight: 400;
+  font-size: 48px;
+  margin-top: 6rem;
+}
+
+.header-lhs p {
+  margin-top: 1.6rem;
+  font-weight: 200;
+  font-size: 16px;
+  color: #f1f1f1;
+  line-height: 28px;
+  margin-bottom: 3rem;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.header-btn1 {
+  background: #65e4a3;
+  border: 2px solid #69e6a6;
+  border-radius: 56px;
+  padding: 16px 56px;
+  gap: 8px;
+  color: #0a2640;
+  cursor: pointer;
+}
+
+.header-btn1:hover {
+  background: #0a2640;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.header-btn2 {
+  padding: 16px 56px;
+  gap: 8px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 56px;
+  background: #0a2640;
+  cursor: pointer;
+}
+
+.header-btn2:hover {
+  background: #65e4a3;
+  color: #0a2640;
+  border: 2px solid #69e6a6;
+}
+
+.logos-bar {
+  padding-bottom: 4rem;
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 3rem;
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.logos-bar div:hover {
+  opacity: 0.8;
+}

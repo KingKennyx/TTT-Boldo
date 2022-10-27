@@ -1,0 +1,41 @@
+.info-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4rem;
+}
+
+.info-img {
+  margin-top: 10rem;
+}
+
+.info-img img {
+  width: 100%;
+}
+
+.info-sec {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+  margin-top: 4rem;
+}
+
+.info-sec-head h3 {
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+}
+
+.info-sec-blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.info-sec-blocks div {
+  height: 54px;
+  border-bottom: 2px solid #eee;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Open Sans";
+  color: #000000;
+}

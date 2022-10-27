@@ -1,0 +1,81 @@
+.footer-container {
+  display: grid;
+  grid-template-columns: 31% 63%;
+  gap: 6%;
+  margin-top: 16rem;
+  width: 100%;
+  padding-bottom: 8rem;
+}
+
+.footer-lhs {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.footer-lhs-head {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.footer-lhs-head h3 {
+  font-weight: 700;
+  font-size: 43.25px;
+  line-height: 34px;
+  color: #0a2640;
+}
+
+.footer-lhs-body p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #777777;
+}
+
+.footer-lhs-foot small {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #777777;
+}
+
+.footer-rhs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.footer-rhs-item1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.footer-rhs-item1 h3 {
+  color: #000;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.footer-rhs-item1 span {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777;
+}
+
+.footer-rhs-item1 span button {
+  background: #65e4a3;
+  border-radius: 120px;
+  padding: 1px 14px;
+  gap: 10px;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
