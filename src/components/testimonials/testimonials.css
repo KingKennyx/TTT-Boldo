@@ -125,10 +125,19 @@
 
 /* Media Queries (Small Devices) */
 @media screen and (max-width: 600px) {
+  .testimonials-container {
+    width: 40vw;
+  }
   .testimonial-heading {
     width: 100vw;
   }
   .testimonial-item {
-    width: 100vw;
+    width: 90vw;
+  }
+  .arrows {
+    width: 90vw;
+  }
+  .comments-section {
+    grid-template-columns: 1fr;
   }
 }

@@ -132,4 +132,7 @@
   .blog-container {
     width: 100vw;
   }
+  .blog-blocks {
+    grid-template-columns: 1fr;
+  }
 }
