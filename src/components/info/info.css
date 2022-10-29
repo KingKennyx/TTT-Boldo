@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 1024px) {
   .info-container {
-    width: 40%;
+    width: 100vw;
   }
   .info-img {
     margin-top: 4rem;
@@ -52,20 +52,23 @@
     gap: 4rem;
   }
   .info-sec-head h3 {
-    font-size: 24px;
     text-align: center;
   }
   .info-sec-blocks div {
-    font-size: 14px;
+    /* font-size: 14px; */
   }
   .info-sec-blocks {
     gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
 /* Media Queries (Small Devices) */
 @media screen and (max-width: 600px) {
   .info-container {
-    width: 100%;
+    width: 100vw;
   }
 }

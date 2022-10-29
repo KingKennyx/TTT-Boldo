@@ -29,7 +29,7 @@ const data = [
 const Services = () => {
   return (
     <>
-      <section className="container">
+      <section className="container" id="Services">
         <section className="services">
           <div className="services-heading">
             <h5>Our Services</h5>

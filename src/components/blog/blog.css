@@ -110,25 +110,26 @@
 
 @media screen and (max-width: 1024px) {
   .blog-container {
-    width: 40%;
+    width: 100vw;
     margin-top: 4rem;
   }
   .blog-heading h5 {
-    font-size: 12px;
+    /* font-size: 12px; */
   }
   .blog-heading h2 {
-    font-size: 24px;
+    /* font-size: 24px; */
   }
   .blog-blocks {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     margin-left: 0;
     gap: 10rem;
+    /* width: 50%; */
   }
 }
 
 /* Media Queries (Small Devices) */
 @media screen and (max-width: 600px) {
   .blog-container {
-    width: 80%;
+    width: 100vw;
   }
 }

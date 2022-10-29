@@ -104,6 +104,7 @@
   flex-direction: column;
   gap: 2rem;
   margin-top: 2rem;
+  cursor: pointer;
 }
 
 .about-con-2-block-1 {
@@ -133,6 +134,7 @@
   .about-container {
     margin-top: -11rem;
     margin-left: -6rem;
+    width: 100vw;
   }
   .about-con-1 {
     flex-direction: column;
@@ -142,22 +144,14 @@
   .about-rhs-2-div {
     display: none;
   }
-  .about-lhs-1 img {
-    width: 302px;
-    height: 302px;
-  }
-  .about-rhs-2 img {
-    width: 302px;
-    height: 302px;
-  }
-  .about-rhs-1 h2 {
-    font-size: 24px;
+  .about-rhs-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .about-rhs-1 ul {
     margin-top: 2rem;
-  }
-  .about-rhs-1 ul li {
-    font-size: 12px;
   }
   .about-rhs-1 button {
     margin-top: 3rem;
@@ -168,18 +162,10 @@
   }
   .about-lhs-2 {
     margin-top: -10rem;
-  }
-  .about-lhs-2 h2 {
-    font-size: 24px;
-  }
-  .about-con-2-block-1 {
-    font-size: 13px;
-  }
-  .about-con-2-block-2 {
-    font-size: 13px;
-  }
-  .about-con-2-block-3 {
-    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 

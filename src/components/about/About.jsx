@@ -12,7 +12,7 @@ import PIE from "../../assets/Graphs/GraphicContent.png";
 const About = () => {
   return (
     <>
-      <section className="container">
+      <section className="container" id="About">
         <div className="about-container">
           <div className="about-con-1">
             <div className="about-lhs-1">

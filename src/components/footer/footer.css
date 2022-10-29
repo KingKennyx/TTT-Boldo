@@ -82,7 +82,7 @@
 
 @media screen and (max-width: 1024px) {
   .footer-container {
-    width: 30%;
+    width: 100vw;
     grid-template-columns: 1fr;
   }
 }

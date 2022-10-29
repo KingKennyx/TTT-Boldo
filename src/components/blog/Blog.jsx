@@ -36,7 +36,7 @@ const data = [
 const Blog = () => {
   return (
     <>
-      <section className="container">
+      <section className="container" id="Blog">
         <div className="blog-container">
           <div className="blog-heading">
             <h5>Our Blog</h5>

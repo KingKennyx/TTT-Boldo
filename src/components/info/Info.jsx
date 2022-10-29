@@ -5,7 +5,7 @@ import INFO from "../../assets/info-img.png";
 const Info = () => {
   return (
     <>
-      <div className="container ">
+      <div className="container" id="Info">
         <div className="info-container">
           <div className="info-img">
             <img src={INFO} alt="" />

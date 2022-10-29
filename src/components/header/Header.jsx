@@ -11,7 +11,7 @@ import HEADERPIE from "../../assets/PieGraph2.png";
 const Header = () => {
   return (
     <>
-      <div className="header">
+      <div className="header" id="Home">
         <div className="ellipse"></div>
         <div>
           <div className="container header-container">

@@ -1,7 +1,12 @@
 import React from "react";
 import "./mobileNav.css";
-import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import {
+  AiOutlineHome,
+  AiOutlineUser,
+  AiOutlineInfoCircle,
+} from "react-icons/ai";
 import { RiServiceLine } from "react-icons/ri";
+import { FaBloggerB } from "react-icons/fa";
 import { VscPerson } from "react-icons/vsc";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { useState } from "react";
@@ -18,13 +23,6 @@ const MobileNav = () => {
         <AiOutlineHome />
       </a>
       <a
-        href="#About"
-        onClick={() => setActiveNav("#About")}
-        className={activeNav === "#About" ? "active" : ""}
-      >
-        <AiOutlineUser />
-      </a>
-      <a
         href="#Services"
         onClick={() => setActiveNav("#Services")}
         className={activeNav === "#Services" ? "active" : ""}
@@ -32,11 +30,33 @@ const MobileNav = () => {
         <RiServiceLine />
       </a>
       <a
+        href="#About"
+        onClick={() => setActiveNav("#About")}
+        className={activeNav === "#About" ? "active" : ""}
+      >
+        <AiOutlineUser />
+      </a>
+
+      <a
         href="#Testimonials"
+        onClick={() => setActiveNav("#Testimonials")}
+        className={activeNav === "#Testimonials" ? "active" : ""}
+      >
+        <VscPerson />
+      </a>
+      <a
+        href="#Info"
         onClick={() => setActiveNav("#Clients")}
         className={activeNav === "#Clients" ? "active" : ""}
       >
-        <VscPerson />
+        <AiOutlineInfoCircle />
+      </a>
+      <a
+        href="#Blog"
+        onClick={() => setActiveNav("#Blog")}
+        className={activeNav === "#Blog" ? "active" : ""}
+      >
+        <FaBloggerB />
       </a>
       <a
         href="#Contact"
