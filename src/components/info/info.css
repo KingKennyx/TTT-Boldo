@@ -39,3 +39,33 @@
   font-family: "Open Sans";
   color: #000000;
 }
+
+@media screen and (max-width: 1024px) {
+  .info-container {
+    width: 40%;
+  }
+  .info-img {
+    margin-top: 4rem;
+  }
+  .info-sec {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  .info-sec-head h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .info-sec-blocks div {
+    font-size: 14px;
+  }
+  .info-sec-blocks {
+    gap: 2rem;
+  }
+}
+
+/* Media Queries (Small Devices) */
+@media screen and (max-width: 600px) {
+  .info-container {
+    width: 100%;
+  }
+}

@@ -79,3 +79,14 @@
   margin-left: 0.5rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer-container {
+    width: 30%;
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Media Queries (Small Devices) */
+@media screen and (max-width: 600px) {
+}

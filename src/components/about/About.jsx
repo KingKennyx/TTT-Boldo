@@ -6,6 +6,8 @@ import { IoCheckmarkCircle } from "react-icons/io5";
 import { FiFeather } from "react-icons/fi";
 import { AiOutlineEye } from "react-icons/ai";
 import { FiSun } from "react-icons/fi";
+import BAR from "../../assets/Graphs/graph-2.png";
+import PIE from "../../assets/Graphs/GraphicContent.png";
 
 const About = () => {
   return (
@@ -15,6 +17,9 @@ const About = () => {
           <div className="about-con-1">
             <div className="about-lhs-1">
               <img src={MAN} alt="" />
+              <div className="about-lhs-1-div">
+                <img src={BAR} alt="" />
+              </div>
             </div>
             <div className="about-rhs-1">
               <h2>
@@ -58,6 +63,9 @@ const About = () => {
             </div>
             <div className="about-rhs-2">
               <img src={WOMAN} alt="" />
+              <div className="about-rhs-2-div">
+                <img src={PIE} alt="" />
+              </div>
             </div>
           </div>
         </div>

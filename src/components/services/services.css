@@ -58,3 +58,32 @@
   background: #fff;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1024px) {
+  .services {
+    max-width: 30%;
+    margin-top: 4rem;
+    margin-left: 2.5rem;
+  }
+  .services-heading h5 {
+    font-size: 14px;
+  }
+  .services-heading h3 {
+    font-size: 32px;
+  }
+  .services-options {
+    grid-template-columns: 1fr;
+    margin-left: -2.5rem;
+  }
+}
+
+/* Media Queries (Small Devices) */
+@media screen and (max-width: 600px) {
+  .services {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .services-options {
+    margin-left: 1rem;
+  }
+}

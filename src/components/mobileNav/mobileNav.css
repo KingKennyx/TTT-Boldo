@@ -1,0 +1,48 @@
+.mobile-nav {
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  left: 23%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+  visibility: hidden;
+}
+
+.mobile-nav a {
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.1rem;
+}
+
+.mobile-nav a:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.mobile-nav a.active {
+  background: #0a2640;
+  color: #fff;
+}
+
+/* Media Queries (Medium Devices) */
+@media screen and (max-width: 1024px) {
+  .mobile-nav {
+    visibility: visible;
+  }
+}
+
+/* Media Queries (Small Devices) */
+@media screen and (max-width: 600px) {
+  .mobile-nav {
+    visibility: visible;
+  }
+}

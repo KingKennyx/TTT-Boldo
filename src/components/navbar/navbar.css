@@ -58,3 +58,13 @@ nav {
   color: #ffffff;
   border: 2px solid #eee;
 }
+
+@media screen and (max-width: 1024px) {
+  nav {
+    display: none;
+  }
+}
+
+/* Media Queries (Small Devices) */
+@media screen and (max-width: 600px) {
+}

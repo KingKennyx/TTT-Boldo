@@ -32,4 +32,18 @@ body {
 button {
   font-family: "Open Sans";
   font-weight: 700;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+}
+
+/* Media Queries (Small Devices) */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-sm);
+  }
 }
