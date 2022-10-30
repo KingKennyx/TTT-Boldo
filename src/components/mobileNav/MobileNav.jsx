@@ -44,7 +44,7 @@ const MobileNav = () => {
       >
         <VscPerson />
       </a>
-      <a
+      {/* <a
         href="#Info"
         onClick={() => setActiveNav("#Clients")}
         className={activeNav === "#Clients" ? "active" : ""}
@@ -57,7 +57,7 @@ const MobileNav = () => {
         className={activeNav === "#Blog" ? "active" : ""}
       >
         <FaBloggerB />
-      </a>
+      </a> */}
       <a
         href="#Contact"
         onClick={() => setActiveNav("#Contact")}

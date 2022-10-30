@@ -60,6 +60,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+  #Services {
+    max-width: 100vw;
+  }
   .services {
     max-width: 100vw;
     margin-top: 4rem;
@@ -94,6 +97,9 @@
 
 /* Media Queries (Small Devices) */
 @media screen and (max-width: 600px) {
+  #Services {
+    max-width: 100vw;
+  }
   .services {
     max-width: 100vw;
     margin-left: 0;

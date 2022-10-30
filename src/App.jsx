@@ -13,7 +13,7 @@ import Testimonials from "./components/testimonials/Testimonials";
 
 const App = () => {
   return (
-    <>
+    <div>
       <MobileNav />
       <Navbar />
       <Header />
@@ -24,7 +24,7 @@ const App = () => {
       <Blog />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 };
 

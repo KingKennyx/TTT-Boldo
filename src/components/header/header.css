@@ -130,6 +130,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+  #Home {
+    max-width: initial;
+  }
   .header {
     width: 100vw;
   }
@@ -143,7 +146,7 @@
     flex-direction: column;
   }
   .header-lhs {
-    margin-left: -2rem;
+    margin-left: -3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,6 +163,7 @@
   .header-lhs p {
     text-align: center;
     /* font-size: 13px; */
+    width: 70%;
   }
   .header-buttons {
     display: flex;
@@ -178,12 +182,14 @@
 
 /* Media Queries (Small Devices) */
 @media screen and (max-width: 600px) {
+  #Home {
+    max-width: 100vw;
+  }
   .header {
     width: 100vw;
   }
   div.container.header-container {
     margin-left: 2.8rem;
-    /* margin-right: 0; */
   }
   .header-container {
     max-width: 100vw;
