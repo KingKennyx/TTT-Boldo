@@ -12,8 +12,8 @@
 
 :root {
   --container-width-lg: 85%;
-  --container-width-md: 86%;
-  --container-width-sm: 90%;
+  --container-width-md: 100%;
+  --container-width-sm: 100%;
 }
 
 html {
@@ -26,7 +26,7 @@ body {
 
 .container {
   width: var(--container-width-lg);
-  margin: 0;
+  margin: 0 auto;
 }
 
 button {
