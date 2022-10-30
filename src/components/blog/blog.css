@@ -122,7 +122,7 @@
   .blog-blocks {
     grid-template-columns: 1fr 1fr;
     margin-left: 0;
-    gap: 10rem;
+    gap: 7rem;
     /* width: 50%; */
   }
 }

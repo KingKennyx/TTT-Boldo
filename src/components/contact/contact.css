@@ -50,7 +50,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .contact-container {
+  #Contact {
     width: 100vw;
   }
   .contact-container h2 {
@@ -67,7 +67,7 @@
 
 /* Media Queries (Small Devices) */
 @media screen and (max-width: 600px) {
-  .contact-container {
+  #Contact {
     width: 100vw;
   }
   .contact-container h2 {
