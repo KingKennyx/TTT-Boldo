@@ -95,4 +95,10 @@
   #Footer {
     max-width: 100vw;
   }
+  .footer-rhs-item1 h3 {
+    font-size: 14px;
+  }
+  .footer-rhs-item1 span {
+    font-size: 14px;
+  }
 }

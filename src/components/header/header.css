@@ -185,6 +185,9 @@
   #Home {
     max-width: 100vw;
   }
+  .header-lhs h2 {
+    font-size: 40px;
+  }
   .header {
     width: 100vw;
   }
